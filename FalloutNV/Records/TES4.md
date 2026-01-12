@@ -11,14 +11,14 @@ Plugin Info
 
 Count | Subrecord | Name | Type | Info
 ------|-------|------|------|-----
-+ | HEDR | header | struct | Contains additional details about the plugin, see section below.
-- | OFST | unknown | ?? | ??
-- | DELE | unknown | ?? | ??
-+ | CNAM | author | cstring | Maximum size is 512 bytes, including terminator.
-- | SNAM | description | cstring | Maximum size is 512 bytes, including terminator.
--* | | Master Data | collection | Data on the plugin's master files, listed in the order they were present in when the plugin was written.
-- | ONAM | formOverrides | formid[] | Overridden records. An array of [REFR](REFR.md), [ACHR](ACHR.md), [ACRE](ACRE.md), [PMIS](PMIS.md), [PBEA](PBEA.md), [PGRE](PGRE.md), [LAND](LAND.md) and [NAVM](NAVM.md) records.
-- | SCRN | screenshot | ?? | ??
+\+ | HEDR | header | struct | Contains additional details about the plugin, see section below.
+\- | OFST | unknown | ?? | ??
+\- | DELE | unknown | ?? | ??
+\+ | CNAM | author | cstring | Maximum size is 512 bytes, including terminator.
+\- | SNAM | description | cstring | Maximum size is 512 bytes, including terminator.
+\-* | | Master Data | collection | Data on the plugin's master files, listed in the order they were present in when the plugin was written.
+\- | ONAM | formOverrides | formid[] | Overridden records. An array of [REFR](REFR.md), [ACHR](ACHR.md), [ACRE](ACRE.md), [PMIS](PMIS.md), [PBEA](PBEA.md), [PGRE](PGRE.md), [LAND](LAND.md) and [NAVM](NAVM.md) records.
+\- | SCRN | screenshot | ?? | ??
 
 ### HEDR
 
@@ -32,5 +32,5 @@ nextObjectId | uint32 | Next available object ID.
 
 Count | Subrecord | Name | Type | Info
 ------|-------|------|------|-----
-+ | MAST | master | cstring | The filename of a master plugin.
-+ | DATA | fileSize | uint64 | Always `0`, probably vestigial. In TES3, the file size of the previous master was recorded here.
+\+ | MAST | master | cstring | The filename of a master plugin.
+\+ | DATA | fileSize | uint64 | Always `0`, probably vestigial. In TES3, the file size of the previous master was recorded here.
