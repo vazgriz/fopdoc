@@ -11,64 +11,64 @@ Weapon
 
 Count | Subrecord | Name | Type | Info
 ------|-------|------|------|-----
-+ | EDID | Editor ID | cstring |
-+ | [OBND](Subrecords/OBND.md) | Object Bounds | struct |
- | FULL | Name | cstring |
-+ | | [Model Data](Subrecords/Model.md) | collection |
- | ICON | Large icon filename | cstring |
- | MICO | Small icon filename | cstring |
- | SCRI | Script | formid | FormID of a [SCPT](SCPT.md) record.
- | EITM | Object Effect | formid | FormID of an [ENCH](ENCH.md) or [SPEL](SPEL.md) record.
- | EAMT | Enchantment Charge Amount | int16 |
- | NAM0 | Ammo | formid | FormID of an [AMMO](AMMO.md) or [FLST](FLST.md) record.
- | | [Destruction Data](Subrecords/Destruction.md) | collection |
- | REPL | Repair List | formid | FormID of a [FLST](FLST.md) record.
-+ | [ETYP](Subrecords/ETYP.md) | Equipment Type | int32 |
- | BIPL | Biped Model List | formid | FormID of a [FLST](FLST.md) record.
- | YNAM | Sound - Pick Up | formid | FormID of a [SOUN](SOUN.md) record.
- | ZNAM | Sound - Drop | formid | FormID of a [SOUN](SOUN.md) record.
- | | [Shell Casing Model Data](Subrecords/Model.md) | collection | #2
- | | [Scope Model Data](Subrecords/Model.md) | collection | #3
- | EFSD | Scope Effect | formid | FormID of an [EFSH](EFSH.md) record.
- | | [Scope Effect Model Data](Subrecords/Model.md) | collection | #4
- | MWD1 | Model With Mod 1 | cstring |
- | MWD2 | Model With Mod 2 | cstring |
- | MWD3 | Model With Mods 1 and 2 | cstring |
- | MWD4 | Model With Mod 3 | cstring |
- | MWD5 | Model With Mods 1 and 3 | cstring |
- | MWD6 | Model With Mods 2 and 3 | cstring |
- | MWD7 | Model With Mods 1, 2 and 3 | cstring |
- | VANM | VATS Attack Name | cstring |
- | NNAM | Embedded Weapon Node | cstring |
- | INAM | Impact Dataset | formid | FormID of a [IPDS](IPDS.md) record.
- | WNAM | First Person Model | formid | FormID of a [STAT](STAT.md) record.
- | WNM1 | 1st Person Model With Mod 1 | formid | FormID of a [STAT](STAT.md) record.
- | WNM2 | 1st Person Model With Mod 2 | formid | FormID of a [STAT](STAT.md) record.
- | WNM3 | 1st Person Model With Mods 1 and 2 | formid | FormID of a [STAT](STAT.md) record.
- | WNM4 | 1st Person Model With Mod 3 | formid | FormID of a [STAT](STAT.md) record.
- | WNM5 | 1st Person Model With Mods 1 and 3 | formid | FormID of a [STAT](STAT.md) record.
- | WNM6 | 1st Person Model With Mods 2 and 3 | formid | FormID of a [STAT](STAT.md) record.
- | WNM7 | 1st Person Model With Mods 1, 2 and 3 | formid | FormID of a [STAT](STAT.md) record.
- | WMI1 | Weapon Mod 1 | formid | FormID of an [IMOD](IMOD.md) record.
- | WMI1 | Weapon Mod 2 | formid | FormID of an [IMOD](IMOD.md) record.
- | WMI1 | Weapon Mod 3 | formid | FormID of an [IMOD](IMOD.md) record.
- | SNAM | Sound - Gun - Shoot 3D | formid | FormID of a [SOUN](SOUN.md) record.
- | SNAM | Sound - Gun - Shoot Dist | formid | FormID of a [SOUN](SOUN.md) record.
- | XNAM | Sound - Gun - Shoot 2D | formid | FormID of a [SOUN](SOUN.md) record.
- | NAM7 | Sound - Gun - Shoot 3D Looping | formid | FormID of a [SOUN](SOUN.md) record.
- | TNAM | Sound - Melee - Swing / Gun - No Ammo | formid | FormID of a [SOUN](SOUN.md) record.
- | NAM6 | Sound - Block | formid | FormID of a [SOUN](SOUN.md) record.
- | UNAM | Sound - Idle | formid | FormID of a [SOUN](SOUN.md) record.
- | NAM9 | Sound - Equip | formid | FormID of a [SOUN](SOUN.md) record.
- | NAM8 | Sound - Unequip | formid | FormID of a [SOUN](SOUN.md) record.
- | WMS1 | Sound - Mod 1 - Shoot 3D | formid | FormID of a [SOUN](SOUN.md) record.
- | WMS1 | Sound - Mod 1 - Shoot Dist | formid | FormID of a [SOUN](SOUN.md) record.
- | WMS2 | Sound - Mod 1 - Shoot 2D | formid | FormID of a [SOUN](SOUN.md) record.
-+ | DATA | | struct |
-+ | DNAM | | struct |
-+ | CRDT | Critical Data | struct |
- | VATS | VATS | struct |
-+ | [VNAM](Values/Sound Levels.md) | Sound Level | uint32 |
+\+ | EDID | Editor ID | cstring |
+\+ | [OBND](Subrecords/OBND.md) | Object Bounds | struct |
+\- | FULL | Name | cstring |
+\+ | | [Model Data](Subrecords/Model.md) | collection |
+\- | ICON | Large icon filename | cstring |
+\- | MICO | Small icon filename | cstring |
+\- | SCRI | Script | formid | FormID of a [SCPT](SCPT.md) record.
+\- | EITM | Object Effect | formid | FormID of an [ENCH](ENCH.md) or [SPEL](SPEL.md) record.
+\- | EAMT | Enchantment Charge Amount | int16 |
+\- | NAM0 | Ammo | formid | FormID of an [AMMO](AMMO.md) or [FLST](FLST.md) record.
+\- | | [Destruction Data](Subrecords/Destruction.md) | collection |
+\- | REPL | Repair List | formid | FormID of a [FLST](FLST.md) record.
+\+ | [ETYP](Subrecords/ETYP.md) | Equipment Type | int32 |
+\- | BIPL | Biped Model List | formid | FormID of a [FLST](FLST.md) record.
+\- | YNAM | Sound - Pick Up | formid | FormID of a [SOUN](SOUN.md) record.
+\- | ZNAM | Sound - Drop | formid | FormID of a [SOUN](SOUN.md) record.
+\- | | [Shell Casing Model Data](Subrecords/Model.md) | collection | #2
+\- | | [Scope Model Data](Subrecords/Model.md) | collection | #3
+\- | EFSD | Scope Effect | formid | FormID of an [EFSH](EFSH.md) record.
+\- | | [Scope Effect Model Data](Subrecords/Model.md) | collection | #4
+\- | MWD1 | Model With Mod 1 | cstring |
+\- | MWD2 | Model With Mod 2 | cstring |
+\- | MWD3 | Model With Mods 1 and 2 | cstring |
+\- | MWD4 | Model With Mod 3 | cstring |
+\- | MWD5 | Model With Mods 1 and 3 | cstring |
+\- | MWD6 | Model With Mods 2 and 3 | cstring |
+\- | MWD7 | Model With Mods 1, 2 and 3 | cstring |
+\- | VANM | VATS Attack Name | cstring |
+\- | NNAM | Embedded Weapon Node | cstring |
+\- | INAM | Impact Dataset | formid | FormID of a [IPDS](IPDS.md) record.
+\- | WNAM | First Person Model | formid | FormID of a [STAT](STAT.md) record.
+\- | WNM1 | 1st Person Model With Mod 1 | formid | FormID of a [STAT](STAT.md) record.
+\- | WNM2 | 1st Person Model With Mod 2 | formid | FormID of a [STAT](STAT.md) record.
+\- | WNM3 | 1st Person Model With Mods 1 and 2 | formid | FormID of a [STAT](STAT.md) record.
+\- | WNM4 | 1st Person Model With Mod 3 | formid | FormID of a [STAT](STAT.md) record.
+\- | WNM5 | 1st Person Model With Mods 1 and 3 | formid | FormID of a [STAT](STAT.md) record.
+\- | WNM6 | 1st Person Model With Mods 2 and 3 | formid | FormID of a [STAT](STAT.md) record.
+\- | WNM7 | 1st Person Model With Mods 1, 2 and 3 | formid | FormID of a [STAT](STAT.md) record.
+\- | WMI1 | Weapon Mod 1 | formid | FormID of an [IMOD](IMOD.md) record.
+\- | WMI1 | Weapon Mod 2 | formid | FormID of an [IMOD](IMOD.md) record.
+\- | WMI1 | Weapon Mod 3 | formid | FormID of an [IMOD](IMOD.md) record.
+\- | SNAM | Sound - Gun - Shoot 3D | formid | FormID of a [SOUN](SOUN.md) record.
+\- | SNAM | Sound - Gun - Shoot Dist | formid | FormID of a [SOUN](SOUN.md) record.
+\- | XNAM | Sound - Gun - Shoot 2D | formid | FormID of a [SOUN](SOUN.md) record.
+\- | NAM7 | Sound - Gun - Shoot 3D Looping | formid | FormID of a [SOUN](SOUN.md) record.
+\- | TNAM | Sound - Melee - Swing / Gun - No Ammo | formid | FormID of a [SOUN](SOUN.md) record.
+\- | NAM6 | Sound - Block | formid | FormID of a [SOUN](SOUN.md) record.
+\- | UNAM | Sound - Idle | formid | FormID of a [SOUN](SOUN.md) record.
+\- | NAM9 | Sound - Equip | formid | FormID of a [SOUN](SOUN.md) record.
+\- | NAM8 | Sound - Unequip | formid | FormID of a [SOUN](SOUN.md) record.
+\- | WMS1 | Sound - Mod 1 - Shoot 3D | formid | FormID of a [SOUN](SOUN.md) record.
+\- | WMS1 | Sound - Mod 1 - Shoot Dist | formid | FormID of a [SOUN](SOUN.md) record.
+\- | WMS2 | Sound - Mod 1 - Shoot 2D | formid | FormID of a [SOUN](SOUN.md) record.
+\+ | DATA | | struct |
+\+ | DNAM | | struct |
+\+ | CRDT | Critical Data | struct |
+\- | VATS | VATS | struct |
+\+ | [VNAM](Values/Sound Levels.md) | Sound Level | uint32 |
 
 ### DATA
 
