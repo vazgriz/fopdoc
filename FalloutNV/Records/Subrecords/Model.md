@@ -21,18 +21,18 @@ Whenever a model subrecord collection is referenced in these docs, assume it is 
 
 Count | Subrecord | Name | Type | Info
 ------|-------|------|------|-----
-+ | MODL | Model Filename | cstring |
-- | MODB | Unknown | byte[4] |
-- | MODT | Texture File Hashes | ?? |
-- | MODS | Alternate Textures | struct | See below for details.
-- | MODD | FaceGen Model Flags | uint8 | See below for flag values.
+\+ | MODL | Model Filename | cstring |
+\- | MODB | Unknown | byte[4] |
+\- | MODT | Texture File Hashes | ?? |
+\- | MODS | Alternate Textures | struct | See below for details.
+\- | MODD | FaceGen Model Flags | uint8 | See below for flag values.
 
 ### MODS
 
 Count | Name | Type | Info
 ------|------|------|-----
-+ | Count | uint32 | Number of alternate textures.
--* | Alternate Texture | struct | A sub-subrecord structure detailed below.
+\+ | Count | uint32 | Number of alternate textures.
+\-* | Alternate Texture | struct | A sub-subrecord structure detailed below.
 
 #### Alternate Texture
 
